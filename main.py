@@ -1,79 +1,82 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set()
 import spacy
 import pyLDAvis.gensim_models
 import en_core_web_md
 from gensim.corpora.dictionary import Dictionary
-from gensim.models import LdaMulticore, Phrases, LdaModel
+from gensim.models.phrases import Phrases, Phraser
+from gensim.models import LdaMulticore
+from gensim.models import LdaModel
 from gensim.models import CoherenceModel
+import yake
+from langdetect import detect, detect_langs, DetectorFactory
+import re
 
-# read csv
-authors = pd.read_csv('top_20_authors.csv')
-publications = pd.read_csv('publications-top_20_authors.csv', sep=',')
 
-authors_names = list(zip(authors["last_name"], authors["first_name"], authors["id"]))
-authors_names = [(name[0].upper(), name[1].split(" ")[0].upper(), name[2]) for name in list(authors_names)]
+def get_authors_texts():
+    """ make a dictionary containing a list of abstracts for each author """
+    author_publication_pairs = list(zip(publications['user_id'], publications['abstract_text']))
 
-authors_texts = {}
-all_texts = list(zip(publications['abstract_text'], publications['authors']))
+    authors_texts = {author_id: [] for author_id in authors["id"]}
+    for author_id, abstract in author_publication_pairs:
+        if abstract and isinstance(abstract, str) and re.match('^(?=.*[a-zA-Z])', abstract):
+            language = detect(abstract)
+            if language == 'en':
+                authors_texts[author_id].append(abstract)
 
-# find each author's publications
-for last_name, first_name, author_id in authors_names:
-    abstracts = []
-    for abstract, authors in all_texts:
-        if abstract and isinstance(abstract, str) and authors and isinstance(authors, str):
-            # check if the current author is one of the authors of this publication
-            authors = authors.split(";")
-            for a in authors:
-                a = a.upper()
-                if last_name in a and (first_name in a or (first_name[0] + ".") in a):
-                    abstracts.append(abstract)
-                    break
-    authors_texts[author_id] = abstracts
+    return authors_texts
 
-# get one topic for each author
-authors_topics = {}
-nlp = spacy.load('en_core_web_md')
-remove_pos = ['ADV', 'PRON', 'CCONJ', 'PUNCT', 'PART', 'DET', 'ADP', 'SPACE', 'NUM', 'SYM']
 
-for author_id in authors_texts:
-    texts = authors_texts[author_id]
+def extract_keywords(author_names):
+    """ extract topics for each author using yake """
+    # make a dictionary containing the combined abstracts for each author
+    authors_texts = {}
+    for author_id, texts in get_authors_texts().items():
+        authors_texts[author_id] = '\n'.join(texts)
 
-    # tokenize, lemmatize, remove stop words
-    tokens = []
-    for abstract in texts:
-        if abstract and isinstance(abstract, str):
-            abstract_nlp = nlp(abstract)
+    # load spacy model
+    nlp = spacy.load('en_core_web_md')
 
-            t = []
-            for tok in abstract_nlp:
-                if tok.pos_ not in remove_pos and not tok.is_stop and tok.is_alpha:
-                    t.append(tok.lemma_.lower())
+    # entities/words to remove
+    remove_entities = ['PERSON', 'NORP', 'FAC', 'GPE', 'LOC', 'DATE', 'TIME', 'PERCENT', 'MONEY',
+                       'QUANTITY', 'CARDINAL', 'ORDINAL']
+    stop_words = ['paper', 'present', 'propose', 'show', 'datum', 'people', 'result', 'solution', 'case', 'order',
+                  'base', 'ieee', 'privacy', 'policy', 'new', 'old', 'context', 'high', 'different', 'research', 'type',
+                  'approach', 'important', 'main', 'range', 'helpful', 'large', 'difficult', 'available', 'amount',
+                  'useful', 'importance', 'article', 'abstract', 'scale', 'copyright', 'real', 'quality', 'demonstrate',
+                  'inconvenience', 'benefit', 'unavailable', 'term', 'condition', 'interest', 'recent', 'obtain',
+                  'title', 'jat', 'jats',
+                  'organization', 'task', 'student', 'professor', 'teacher', 'university', 'workshop', 'study', 'text',
+                  'conference']
 
-            tokens.append(t)
+    for author_id, text in authors_texts.items():
+        # preprocess text
+        doc = nlp(text)
+        transformed_text = ' '.join(
+            [token.text for token in doc if token.ent_type_ not in remove_entities
+             and token.lemma_.lower() not in stop_words])
 
-    print(author_id)
-    print()
+        print(str(author_id) + " - " + author_names[author_id])
 
-    # add bigrams to the token list
-    # bigram = Phrases(tokens)
-    # tokens = [bigram[text] for text in tokens]
-    #
-    # for i, abstract in enumerate(tokens):
-    #     for j, token in enumerate(abstract):
-    #         tokens[i][j] = token.replace("_", " ")
+        # get 15 keyphrases of max 3 words
+        max_ngram = 3
+        deduplication_threshold = 0.5
+        keywords_nr = 15
+        custom_kw_extractor = yake.KeywordExtractor(lan="en", n=max_ngram, dedupLim=deduplication_threshold,
+                                                    top=keywords_nr, features=None)
 
-    # create dictionary with gensim
-    dictionary = Dictionary(tokens)
+        keywords = custom_kw_extractor.extract_keywords(transformed_text)
+        for kw in keywords:
+            print(kw)
 
-    # create corpus
-    corpus = [dictionary.doc2bow(text) for text in tokens]
+        print()
 
-    # apply lda
-    # lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=50, num_topics=1, workers=4, passes=10)
-    # lda_model.print_topics(-1)
-    lda_model = LdaModel(corpus=corpus, num_topics=1, id2word=dictionary)
-    lda_model.show_topics()
-    print()
+
+if __name__ == '__main__':
+    # read csv files
+    authors = pd.read_csv('top_20_authors.csv')
+    publications = pd.read_csv('publications-top_20_authors.csv', sep=',')
+
+    id_name_list = list(zip(authors['id'], authors['last_name'], authors['first_name']))
+    author_names = {author_id: last_name + " " + first_name for author_id, last_name, first_name in id_name_list}
+
+    extract_keywords(author_names)
