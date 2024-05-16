@@ -1,3 +1,5 @@
 .idea/
 .ipynb_checkpoints/
 lid.176.bin
+*.tmp
+~*
