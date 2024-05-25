@@ -3,3 +3,4 @@
 lid.176.bin
 *.tmp
 ~*
+.venv/

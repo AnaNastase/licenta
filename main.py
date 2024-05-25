@@ -54,7 +54,13 @@ def extract_keywords(author_names):
                        'QUANTITY', 'CARDINAL', 'ORDINAL']
 
     for author_id, text in authors_texts.items():
+        if not text:
+            print(str(author_id) + " - " + author_names[author_id])
+            print("-")
+            continue
+
         # preprocess text
+        nlp.max_length = len(text) + 100
         doc = nlp(text)
         transformed_text = ' '.join(
             [token.text for token in doc if token.ent_type_ not in remove_entities
@@ -91,9 +97,15 @@ def extract_topic(author_names):
                        'QUANTITY', 'CARDINAL', 'ORDINAL']
 
     for author_id, texts in authors_texts.items():
+        if not texts:
+            print(str(author_id) + " - " + author_names[author_id])
+            print("-")
+            continue
+
         # preprocess texts
         tokens = []
         for abstract in texts:
+            nlp.max_length = len(abstract) + 100
             doc = nlp(abstract)
             t = [token.lemma_.lower() for token in doc if token.is_alpha and token.ent_type_ not in remove_entities
                  and token.lemma_.lower() not in STOP_WORDS and token.pos_ not in remove_pos and not token.is_stop]
@@ -129,8 +141,13 @@ if __name__ == '__main__':
     # read csv files
     authors = pd.read_csv('top_20_authors.csv')
     publications = pd.read_csv('publications-top_20_authors.csv', sep=',')
+    # authors = pd.read_csv('some_authors.csv')
+    # publications = pd.read_csv('publications-some_authors.csv', sep=',')
 
     id_name_list = list(zip(authors['id'], authors['last_name'], authors['first_name']))
     author_names = {author_id: last_name + " " + first_name for author_id, last_name, first_name in id_name_list}
 
+    print("YAKE:")
+    extract_keywords(author_names)
+    print("\nLDA:")
     extract_topic(author_names)
