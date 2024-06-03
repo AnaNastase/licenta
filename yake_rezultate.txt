@@ -1,5 +1,4 @@
 829 - DATCU Mihai
-YAKE:
 synthetic aperture radar
 resolution SAR images
 SAR images
@@ -9,15 +8,14 @@ SAR data
 SAR image classification
 Aperture Radar SAR
 satellite image time
-remote sensing image
 image time series
+remote sensing image
 SAR
 sensing image data
 data
 image
 
 1672 - GRUMEZESCU Alexandru Mihai
-YAKE:
 drug delivery systems
 scanning electron microscopy
 nanoparticles
@@ -35,7 +33,6 @@ Laser Scanning Microscopy
 delivery
 
 841 - ANDRONESCU Ecaterina
-YAKE:
 scanning electron microscopy
 ray diffraction
 composite materials
@@ -45,15 +42,14 @@ XRD
 drug delivery systems
 properties
 dielectric properties
-Chairs Mihnea COSTOIU
-Chairs BURILEANU Valentin
 iron oxide nanoparticles
 BMT ceramic material
 transmission electron
 microscopy
+method
+electron
 
 1284 - TRAUSAN-MATU STEFAN
-YAKE:
 Natural Language Processing
 Supported Collaborative Learning
 Computer Supported Collaborative
@@ -71,30 +67,28 @@ machine learning system
 learning management systems
 
 1225 - VOICU Gheorghe
-YAKE:
-Subject Category
-Miscanthus miscanthus Subject
-seeds seeds Subject
-grinding grinding Subject
-characteristics Subject Category
 process
-Subject
-Category
-energy
 product development process
-soil compaction Subject
+energy
 energy consumption
-renewable energy Subject
 material
 working process
+equipment
+soil
+products
+mechanical properties
+Methodologies and Equipment
+biomass
+properties
+system
+analysis
 
 1849 - FICAI Anton
-YAKE:
 scanning electron microscopy
 drug delivery systems
 composite material properties
-materials
 Transform Infrared Spectroscopy
+materials
 properties
 SEM
 composites
@@ -104,28 +98,26 @@ antimicrobial activity
 microscopy
 designed composite materials
 delivery
-tissue engineering applications
+polymer
 
 534 - DOBRE Ciprian Mihai
-YAKE:
 distributed systems
 mobile cloud computing
-cloud computing systems
 Data
+cloud computing systems
 mobile big data
 Opportunistic networks
 mobile devices
 network management services
-systems
 big data processing
 mobile social networks
 network
-mobile data traffic
-networks data dissemination
+systems
+Services
 mobile opportunistic cloud
+mobile
 
 733 - SEMENESCU Augustin
-YAKE:
 finite element analysis
 welding process
 Sustainable Development
@@ -143,7 +135,6 @@ system
 polluting technology process
 
 69354 - VLAD MAGDALENA
-YAKE:
 Joint European Torus
 JET ITER
 JET
@@ -161,7 +152,6 @@ fast ion physics
 ILA
 
 562 - POP Florin
-YAKE:
 Cloud computing
 Big Data processing
 Big Data
@@ -169,8 +159,8 @@ Cloud systems
 data
 Cloud
 service level agreement
-Data processing systems
 Cloud service providers
+Data processing systems
 distributed systems resources
 grid scheduling algorithms
 computing distributed systems
@@ -179,14 +169,11 @@ system
 Big Data environments
 
 1541 - UNGUREANU Nicoleta
-YAKE:
 Finite Element Method
-Subject Category
 soil
 agricultural soil
-element analysis Subject
 soil compaction soil
-loosening loosening Subject
+Element Analysis finite
 Analysis finite element
 soil processing
 wastewater
@@ -194,10 +181,11 @@ increase agricultural production
 wastewater treatment
 artificial soil compaction
 soil contact surface
-energy consumption Subject
+soil tillage
+heavy agricultural machinery
+Water
 
 1297 - PETRESCU Florian Ion
-YAKE:
 Piano Urbanistico Comunale
 energy
 mechanism
@@ -215,7 +203,6 @@ Lockheed Martin
 energy sources
 
 38845 - STASTNY PETER
-YAKE:
 HLA class alleles
 HLA
 MICA
@@ -233,61 +220,57 @@ class HLA haplotypes
 distinct HLA class
 
 1047 - BIRIS SORIN STEFAN
-YAKE:
-Subject Category
-tractors tractors Subject
-optimization optimization Subject
 mobile working machine
-soil compaction Subject
 finite element method
-wastewater treatment Subject
 grape seed oil
-tillage tillage Subject
 agricultural machines working
-design design Subject
-materials materials Subject
+soil compaction soil
 soil tillage machines
 compaction soil compaction
-sunflower seeds Subject
+independent agricultural machines
+soil modelling equipment
+Gasification process TLUD
+hydraulic PET waste
+PET waste press
+Active suspension systems
+protective agricultural equipment
+machines working parts
 
 584 - DASCALU Mihai
-YAKE:
 Natural Language Processing
 machine learning models
 Language Processing techniques
 language models
 learning
 Cohesion Network Analysis
-USA Traian Muntean
-USA Gheorghe Tecuci
 FPGA Spartan III
 game learning environment
 models
-Nederland Val Tannen
 BERT model
 cellular automata model
 multiple NLP methods
+neural network models
+interactive natural language
+Smart Learning Ecosystems
 
 872 - POPESCU Dan
-YAKE:
 wireless sensor networks
 neural networks
-process control systems
 system
-Unmanned Aerial Vehicles
+process control systems
 sensor network systems
 image processing system
+Unmanned Aerial Vehicles
 convolutional neural network
-network
 images
+network
 control
-communication system architecture
 data
+system architecture
 multi WSN network
-WSN monitoring systems
+fractal dimension
 
 1292 - RADU Gabriel Lucian
-YAKE:
 extracts
 acid
 method
@@ -305,7 +288,6 @@ concentration
 electrode
 
 1246 - IOVU Horia
-YAKE:
 Scanning electron microscopy
 mechanical properties
 dynamic mechanical analysis
@@ -323,7 +305,6 @@ POSS
 differential scanning calorimetry
 
 68995 - Meghea Aurelia
-YAKE:
 antioxidant activity
 solid lipid nanoparticles
 nanostructured lipid carriers
@@ -341,18 +322,172 @@ iron oxide materials
 heavy metals
 
 1146 - MOLDOVEANU ALIN - DRAGOS - BOGDAN
-YAKE:
 virtual reality
 virtual online virtual
 virtual
 virtual learning environments
 virtual world systems
-learning
 virtual game technology
-reality
+learning
 Vision virtual training
 online virtual life
+reality
 augmented reality
-visually impaired
 virtual auditory displays
-system
+visually impaired
+Smith chart
+immersive virtual environments
+
+AUTORI CU MAI PUTINE PUBLICATII:
+943 - PARVU Corneliu
+Atomic Force Microscopy
+Scanning Electron Microscopy
+POSS compound directly
+carbon nanotubes composite
+amino carbon nanotubes
+nanotubes composite membranes
+UDMA matrix leads
+functionalized multiwalled carbon
+hybrid material transparency
+engineering design activity
+developing functional taxonomies
+supporting engineering design
+compound directly influences
+electronic conductive chemical
+conductive chemical species
+
+698 - RINDASU OVIDIU VIOREL 
+Mittal Steel Galati
+post deformation maintaining
+thermo mechanical treatment
+end deformation temperature
+mechanical characteristics modifications
+weldable steel thick
+steel thick plates
+micro alloyed steel
+test specimen made
+grade test specimen
+technological parameters
+degree and post
+maintaining time
+Metallurgy and Materials
+Materials Science
+
+854 - SINDILA Gheorghe
+finite element analysis
+Reducing shearing forces
+calculated punching force
+Human Resources Development
+Programme Human Resources
+Operational Programme Human
+human gait pattern
+made virtual laboratories
+deformation process lead
+energy level required
+cold compressing processes
+Sectoral Operational Programme
+optimizing human gait
+gait analysis resides
+data acquisition system
+
+549 - TIRIPLICA Petre Gheorghe
+monitoring project budgets
+project budget monitoring
+percentage execution budgets
+external drive magnet
+cold plastic deformation
+Human Resources Development
+efficient project management
+Sectoral Operational Program
+magnetic drive pumps
+plastic deformation equipments
+total manufacturing cost
+product procurement price
+induced magnetic field
+imposed major penalties
+clauses imposed major
+
+916 - Funar STEFAN PETRU
+OHS management system
+European Conformity Assessment
+virtual enterprise project
+project risk management
+environmental legislative system
+international manufacturing project
+Multilateral Recognition Protocols
+Conformity Assessment Protocol
+permanently updated BAT
+updated BAT references
+OHS responsibles activity
+signing European Conformity
+management system remodelling
+Resin Transfer Molding
+project planner risk
+
+802 - DANCIU TIBERIU-DINU
+chemical engineering education
+chemistry teaching staff
+learning management systems
+interactive teaching methods
+distance education system
+kinetic model
+learning content management
+fed batch bioreactors
+teaching staff professional
+integrated project design
+modern engineering methods
+project design work
+model
+heterogeneous reactor model
+staff professional development
+
+736 - TROFIN Roxana
+digital technologies integration
+teach specific competences
+mediated learning model
+future social actor
+cultural grids specific
+discursive competences put
+learning model meant
+technical knowledge permits
+developed technical knowledge
+automatic translation
+Specific Purposes
+future engineers
+intercultural competences
+professional communication
+translation carried
+
+367 - TARCEA  Claudia Ionela
+scanning electron microscopy
+atomic force microscopy
+magnetic nanoiron oxides
+Choosing alloying elements
+ray diffraction
+iron oxide nanoparticles
+heavy metals removal
+confer higher biocompatibility
+limit of detection
+cobalt alloys
+Powder size classifications
+SEM
+rose leaf extract
+alloys include elements
+microscopy
+
+69156 - GUTU-ROBU MARIUS GABRIEL
+Natural Language Processing
+Supported Collaborative Learning
+advanced Natural Language
+Cohesion Network Analysis
+Language Processing techniques
+Computer Supported Collaborative
+Collaborative Learning tools
+RAGE Ecosystem Portal
+Learning Management Systems
+processing tool Reader
+Processing semantic models
+CSCL chat conversations
+game learning environment
+knowledge processing systems
+Semantic Annotation component
