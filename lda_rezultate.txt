@@ -57,3 +57,33 @@
 
 1146 - MOLDOVEANU ALIN - DRAGOS - BOGDAN
 0: 0.012*"virtual reality" + 0.008*"virtual environment" + 0.007*"smith chart" + 0.005*"sound vision" + 0.004*"human body" + 0.004*"virtual world" + 0.004*"fear level" + 0.004*"sensory substitution" + 0.004*"human health" + 0.003*"virtual space"
+
+
+CU MAI PUTINE PUBLICATII:
+943 - PARVU Corneliu
+0: 0.027*"structure" + 0.027*"functional" + 0.022*"design" + 0.018*"product" + 0.018*"membrane" + 0.018*"carbon" + 0.018*"hybrid" + 0.013*"group" + 0.013*"compound" + 0.013*"composite"
+
+698 - RINDASU OVIDIU VIOREL 
+0: 0.058*"deformation" + 0.058*"steel" + 0.042*"laboratory" + 0.033*"experiment" + 0.033*"mechanical characteristic" + 0.025*"degree" + 0.025*"mittal" + 0.025*"post" + 0.025*"time" + 0.025*"parameter"
+
+854 - SINDILA Gheorghe
+0: 0.010*"force" + 0.008*"human" + 0.008*"material" + 0.008*"process" + 0.007*"level" + 0.007*"deformation" + 0.006*"extrusion" + 0.006*"development" + 0.006*"system" + 0.005*"software"
+
+549 - TIRIPLICA Petre Gheorghe
+0: 0.014*"methodology" + 0.011*"product" + 0.010*"component" + 0.010*"project" + 0.009*"system" + 0.009*"pump" + 0.008*"price" + 0.007*"s" + 0.007*"procurement price" + 0.007*"budget"
+
+916 - Funar STEFAN PETRU
+0: 0.013*"system" + 0.011*"risk" + 0.009*"process" + 0.008*"flow" + 0.008*"project" + 0.008*"management system" + 0.007*"level" + 0.006*"methodology" + 0.006*"requirement" + 0.006*"activity"
+
+802 - DANCIU TIBERIU-DINU
+0: 0.057*"chemical engineering" + 0.034*"deep oxidation" + 0.034*"information communication technology" + 0.034*"e learning" + 0.029*"mass transfer" + 0.029*"electrostatic filter" + 0.029*"electrical filter" + 0.029*"substrate concentration" + 0.029*"incompressible precipitate" + 0.029*"geometrical model"
+
+736 - TROFIN Roxana
+0: 0.025*"competence" + 0.018*"specific" + 0.018*"translation" + 0.018*"technology" + 0.014*"language" + 0.011*"intercultural" + 0.011*"communication" + 0.011*"automatic translation" + 0.009*"open" + 0.009*"fsp"
+
+367 - TARCEA  Claudia Ionela
+0: 0.082*"heavy metal" + 0.055*"x ray diffraction xrd" + 0.048*"electron microscopy sem" + 0.048*"iron oxide nanoparticle" + 0.041*"water treatment" + 0.041*"magnetic nanoiron oxide" + 0.034*"film nanowire" + 0.034*"electron microscopy sem energy" + 0.034*"methylene blue" + 0.034*"ion cs nanomaterial"
+
+69156 - GUTU-ROBU MARIUS GABRIEL
+0: 0.034*"chat conversation" + 0.031*"natural language processing nlp" + 0.027*"neural network" + 0.027*"cohesion network analysis" + 0.027*"natural language" + 0.027*"readerbench framework" + 0.024*"natural language processing" + 0.024*"implicit link" + 0.021*"learning need" + 0.021*"semantic similarity"
+

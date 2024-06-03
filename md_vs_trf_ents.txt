@@ -1,0 +1,664 @@
+-> en_core_web_trf are precizie mai buna, in special la nume de organizatii, dar si de persoane
+-> en_core_web_md vede drept org multi termeni care nu sunt organizatii (Big Data, Java...)
+
+!Ecaterina Andronescu:
+trf:
+Corneliu Burileanu PERSON
+Dragoş Burileanu PERSON
+
+lg:
+Corneliu Burileanu PERSON
+Dragoş Burileanu PERSON
+Mihai GPE	(Chairs BURILEANU Mihai)
+
+
+md:
+('scanning electron microscopy', 1.6924270008969633e-05)
+('ray diffraction', 0.00012468070364381626)
+('composite materials', 0.00013148177974269134)
+('materials', 0.00013399275823568012)
+('drug delivery systems', 0.00015268126710420344)
+('SEM', 0.00017037931634530506)
+('XRD', 0.00017420921744752568)
+('properties', 0.00022416010726090672)
+('dielectric properties', 0.00026558777734213767)
+('Chairs BURILEANU Mihai', 0.0003082610401888536) 	!!!
+('iron oxide nanoparticles', 0.00031154443420146165)
+('BMT ceramic material', 0.00036968083022445407)
+('Fourier transform infrared', 0.0003877112872138343)
+('transmission electron', 0.00041116208882376103)
+('microscopy', 0.0004347360727824984)
+
+trf:
+('scanning electron microscopy', 1.4471185141056109e-05)
+('ray diffraction', 0.00011663415606032075)
+('composite materials', 0.00012542358685264018)
+('materials', 0.0001312985918199545)
+('drug delivery systems', 0.00014211154484857315)
+('SEM', 0.00016690694820417726)
+('XRD', 0.00016799856253476138)
+('properties', 0.0002171879937606488)
+('dielectric properties', 0.00024823861230461393)
+('iron oxide nanoparticles', 0.0002816772431549474)
+('BMT ceramic material', 0.00033517264031419745)
+('Fourier transform infrared', 0.00033796076295787537)
+('thermal analysis methods', 0.00037377967003386555)
+('transmission electron', 0.0003790911809220541)
+('microscopy', 0.0004133575494110583)
+
+id = 802:
+md:
+('chemical engineering education', 0.00044276454301448836)
+('chemistry teaching staff', 0.0004966202068754788)
+('POLITEHNICA of Bucharest', 0.0005146190752729652)	!!!
+('learning management systems', 0.0006257053508812502)
+('interactive teaching methods', 0.0007605234902762679)
+('distance education system', 0.0008619468331931959)
+('teaching staff professional', 0.0012329494790509674)
+('learning content management', 0.0012818117982349349)
+('kinetic model', 0.0013320970629725896)
+('staff professional development', 0.001658096163895301)
+('fed batch bioreactors', 0.001696717435660679)
+('modern engineering methods', 0.0017542045189361559)
+('traditional chemical engineering', 0.0019216771296944508)
+('integrated project design', 0.0019339750794879257)
+('modified traditional model', 0.0020497724649205383)
+
+trf:
+('chemical engineering education', 0.0004377252957897816)
+('chemistry teaching staff', 0.0004916211666668743)
+('learning management systems', 0.0006157642805287394)
+('interactive teaching methods', 0.0007522125382586776)
+('distance education system', 0.0008492655830008129)
+('learning content management', 0.0011305634430003176)
+('integrated project design', 0.001168649343325908)
+('kinetic model', 0.001196141862287009)
+('teaching staff professional', 0.0012218835758513523)
+('rationalized MKSA system', 0.001294595287960633)
+('project design work', 0.001331602568034933)
+('fed batch bioreactors', 0.0013507233504727394)
+('staff professional development', 0.001644462280117073)
+('modern engineering methods', 0.001705478202216418)
+('binary system vinyl', 0.0017135449185718271)
+
+ORGANIZATII:
+id = 534
+md:
+Big Data ORG
+Big Data ORG
+Dynamic Distributed Services Architecture ORG
+Java ORG
+Specialized ORG
+Introduction Data ORG
+AEEZ_v1_0.html Program ORG
+CPC Program Library ORG
+Queen's University ORG
+Caltech License ORG
+the Era of Big Data ORG
+Threaded Objects ORG
+Active Objects ORG
+Grid ORG
+VANET ORG
+VANET ORG
+the Politehnica University of Bucharest ORG
+mobiltity ORG
+Facebook ORG
+SPRINT ORG
+TRP ORG
+HEK293 ORG
+DAG ORG
+DAG ORG
+Time First ORG
+Delay-Tolerant Networks ORG
+DTN ORG
+Opportunistic Mobile Networks ORG
+Bluetooth ORG
+Chapter ORG
+NP ORG
+Content Delivery Networks ORG
+Home Media Gateways ORG
+Quality of Service ORG
+Large Scale Distributed Systems ORG
+
+trf:
+CPC Program Library ORG
+Queen's University ORG
+Caltech ORG
+VANET ORG
+VANET ORG
+the Politehnica University of Bucharest ORG
+Facebook ORG
+Google+ ORG
+Springer-Verlag ORG
+Content Delivery Networks ORG
+a Cloud Service ORG
+Intelligent Transportation Systems ORG
+ITS ORG
+ITS ORG
+ITS ORG
+ITS ORG
+Nano-Mobile Data Centers ORG
+Web Services ORG
+the University POLITEHNICA of Bucharest ORG
+UPB ORG
+eUPB ORG
+Proc. of ORG
+Information and Communications Technologies' ORG
+ELE ORG
+Exalead ORG
+ELE ORG
+ELE ORG
+the Wide Area Network ORG
+Intelligent Transportation Systems ORG
+ITS ORG
+ITS ORG
+Intelligent Transportation Systems ORG
+ITS ORG
+ITS ORG
+ITS ORG
+ITS ORG
+ITS ORG
+ITS ORG
+Cloud Computing ORG
+Amazon ORG
+Microsoft ORG
+Facebook ORG
+Google+ ORG
+Springer International Publishing ORG
+
+TOATE ENTITATILE:
+id = 534
+md:
+4061
+Big Data ORG
+Big Data ORG
+over 4.1 terabytes QUANTITY
+2016 DATE
+MonALISA PERSON
+MonALISA GPE
+Dynamic Distributed Services Architecture ORG
+Java ORG
+JINI PRODUCT
+Specialized ORG
+MonALISA NORP
+MonALISA PERSON
+Grids NORP
+around 160 CARDINAL
+Introduction Data ORG
+fourth ORDINAL
+Two CARDINAL
+First ORDINAL
+Second ORDINAL
+three CARDINAL
+MonALISA Catalogue PERSON
+AEEZ_v1_0.html Program ORG
+CPC Program Library ORG
+Queen's University ORG
+Belfast GPE
+N. Ireland Licensing GPE
+Caltech License ORG
+the Era of Big Data ORG
+One CARDINAL
+Threaded Objects ORG
+Active Objects ORG
+Computing Model PRODUCT
+Grid ORG
+VANET ORG
+VNSim PRODUCT
+VANET PRODUCT
+VANET ORG
+3 CARDINAL
+the Politehnica University of Bucharest ORG
+mobiltity ORG
+Facebook ORG
+three CARDINAL
+SPRINT ORG
+TRP ORG
+melastatin 8 PERSON
+4-(3 CARDINAL
+2-aminoethyl diphenylborinate QUANTITY
+HEK293 ORG
+DAG ORG
+DAG ORG
+First ORDINAL
+Time First ORG
+Delay-Tolerant Networks ORG
+DTN ORG
+Opportunistic Mobile Networks ORG
+Bluetooth ORG
+Chapter ORG
+three CARDINAL
+first ORDINAL
+second ORDINAL
+third ORDINAL
+Springer-Verlag Berlin Heidelberg PERSON
+2013 DATE
+NP ORG
+two CARDINAL
+Content Delivery Networks ORG
+Home Media Gateways ORG
+Quality of Service ORG
+Large Scale Distributed Systems ORG
+modern-day DATE
+
+trf:
+3709
+tomorrow DATE
+over 4.1 terabytes QUANTITY
+2016 DATE
+MonALISA PRODUCT
+MonALISA PRODUCT
+MonALISA PRODUCT
+Dynamic Distributed Services Architecture PRODUCT
+Java PRODUCT
+MonALISA PRODUCT
+MonALISA PRODUCT
+Grids PRODUCT
+160 CARDINAL
+fourth ORDINAL
+Two CARDINAL
+First ORDINAL
+Second ORDINAL
+three CARDINAL
+CPC Program Library ORG
+Queen's University ORG
+Belfast GPE
+N. Ireland GPE
+Caltech ORG
+One CARDINAL
+Grid PRODUCT
+Grid PRODUCT
+VNSim PRODUCT
+VANET ORG
+VANET ORG
+the Politehnica University of Bucharest ORG
+ONSIDE PRODUCT
+Facebook ORG
+Google+ ORG
+three CARDINAL
+SPRINT PRODUCT
+Grid PRODUCT
+First ORDINAL
+First ORDINAL
+First ORDINAL
+BUBBLE Rap PRODUCT
+BUBBLE Rap PRODUCT
+the Internet of Things PRODUCT
+three CARDINAL
+first ORDINAL
+the Internet of Things PRODUCT
+second ORDINAL
+third ORDINAL
+Springer-Verlag ORG
+2013 DATE
+the Internet of Things PRODUCT
+two CARDINAL
+Content Delivery Networks ORG
+Home Media Gateways PRODUCT
+MONARC 2 PRODUCT
+MONARC 2 PRODUCT
+first ORDINAL
+MONARC PRODUCT
+MONARC PRODUCT
+four CARDINAL
+first ORDINAL
+ONSIDE PRODUCT
+five CARDINAL
+the big data era DATE
+today DATE
+two CARDINAL
+First ORDINAL
+Second ORDINAL
+two CARDINAL
+One CARDINAL
+BUBBLE Rap PRODUCT
+Epidemic PRODUCT
+two CARDINAL
+one CARDINAL
+two CARDINAL
+any specific hour TIME
+MONARC PRODUCT
+MONARC PRODUCT
+Grid PRODUCT
+Grid PRODUCT
+Grid PRODUCT
+Grid PRODUCT
+these days DATE
+a Cloud Service ORG
+the Service Level Agreement LAW
+Virtual Machine PRODUCT
+two CARDINAL
+seven CARDINAL
+two CARDINAL
+1 CARDINAL
+Ciprian Dobre PERSON
+Adriana Szekeres PERSON
+Florin Pop PERSON
+Valentin Cristea PERSON
+Fatos Xhafa PERSON
+30.05.2012 DATE
+2 CARDINAL
+30.05.2012 DATE
+3 CARDINAL
+Intelligent Transportation Systems ORG
+ITS ORG
+ITS ORG
+ITS ORG
+ITS ORG
+
+lg:
+4080
+Big Data ORG
+Big Data ORG
+Smart Cities ORG
+tomorrow DATE
+over 4.1 terabytes per day QUANTITY
+2016 DATE
+MonALISA PERSON
+Monitoring Agents ORG
+MonALISA GPE
+MonALISA PERSON
+Dynamic Distributed Services Architecture ORG
+Java GPE
+JINI ORG
+MonALISA GPE
+MonALISA PERSON
+around 160 CARDINAL
+Introduction Data ORG
+fourth ORDINAL
+Two CARDINAL
+First ORDINAL
+Second ORDINAL
+three CARDINAL
+MonALISA PERSON
+Monitoring Agents ORG
+Program ORG
+MonALISA Catalogue WORK_OF_ART
+CPC Program Library ORG
+Queen's University ORG
+Belfast GPE
+N. Ireland GPE
+Caltech License ORG
+Cloud Computing PRODUCT
+the Era of Big Data ORG
+One CARDINAL
+MOdels NORP
+Regional Centers ORG
+Computing Model PRODUCT
+Grid ORG
+VANET PRODUCT
+VNSim ORG
+VANET PRODUCT
+VANET ORG
+3 CARDINAL
+the Politehnica University of Bucharest ORG
+mobiltity ORG
+Facebook ORG
+three CARDINAL
+SPRINT ORG
+Poisson ORG
+TRPV1 and TRPV3 PRODUCT
+melastatin 8 ORG
+TRPM8 ORG
+TRPM8 ORG
+TRPM8 ORG
+4-(3 CARDINAL
+2-aminoethyl diphenylborinate QUANTITY
+TRPM8 ORG
+HEK293 LAW
+TRPV1, TRPV3 ORG
+DAG ORG
+DAG ORG
+First ORDINAL
+Delay-Tolerant Networks ORG
+Opportunistic Mobile Networks ORG
+Bluetooth ORG
+jats PERSON
+QoS CARDINAL
+Chapter LAW
+three CARDINAL
+first ORDINAL
+the Internet of Things ORG
+second ORDINAL
+third ORDINAL
+Springer-Verlag PERSON
+2013 DATE
+NP ORG
+the Internet of Things ORG
+healthcare ORG
+two CARDINAL
+Content Delivery Networks ORG
+Home Media Gateways ORG
+Quality of Service ORG
+QoS CARDINAL
+jats PERSON
+Large Scale Distributed Systems ORG
+modern-day DATE
+2 CARDINAL
+
+id = 841:
+lg:
+4753
+100Angstrom CARDINAL
+zero CARDINAL
+a few years ago DATE
+400 °C QUANTITY
+A Hybrid Transform-Neural Network PRODUCT
+one CARDINAL
+Artificial Neural Network ORG
+ANN PERSON
+PCA ORG
+Fourier CARDINAL
+Sammon PERSON
+1 CARDINAL
+International Conference on Harmonics and Quality of Power ORG
+ICHQP ORG
+ICHQP 2014 Organizing Committee ORG
+George Cristian LAZAROIU Conference PERSON
+George DARIE Corneliu PERSON
+Nicolae GOLOVANOV Mihai POPESCU PERSON
+Constantin BULAC PERSON
+Claudia POPESCU PERSON
+Virgil DUMBRAVA PERSON
+Florin IONESCU PERSON
+SORIGA ORG
+Mihaela TELICEANU PERSON
+Gabriela SAVA PERSON
+Adrian STAN PERSON
+Stefan DUCA PERSON
+Mihai PERSON
+Vlad PLAIASU Oana PERSON
+Silvia POPESCU PERSON
+Oliver MARUNTELU PERSON
+
+md:
+4742
+100Angstrom diameter QUANTITY
+organometallics GPE
+zero CARDINAL
+a few years ago DATE
+A Hybrid Transform-Neural Network WORK_OF_ART
+HTNN ORG
+one CARDINAL
+Artificial Neural Network ORG
+Nondestructive Electromagnetic Testing ORG
+HTNN ORG
+ANN ORG
+PCA ORG
+Fourier ORG
+2014 16th DATE
+International Conference on Harmonics and Quality of Power EVENT
+ICHQP ORG
+ICHQP ORG
+2014 DATE
+Mihnea COSTOIU PERSON
+George Cristian LAZAROIU Conference PERSON
+George DARIE Corneliu PERSON
+Nicolae GOLOVANOV PERSON
+Constantin BULAC PERSON
+Virgil DUMBRAVA PERSON
+IONESCU GPE
+Cornel PERSON
+Stefan SORIGA PERSON
+TELICEANU ORG
+Gabriela SAVA Adrian STAN PERSON
+Stefan DUCA PERSON
+Mihai GPE
+NITA GPE
+Vlad PLAIASU Oana PERSON
+Silvia POPESCU PERSON
+Oliver MARUNTELU PERSON
+
+trf:
+2213
+circa 100Angstrom diameter QUANTITY
+zero CARDINAL
+a few years ago DATE
+1 CARDINAL
+2014 DATE
+16th ORDINAL
+International Conference on Harmonics and Quality of Power EVENT
+2014 DATE
+Ecaterina ANDRONESCU PERSON
+Mihnea COSTOIU PERSON
+George Cristian LAZAROIU PERSON
+George DARIE Corneliu PERSON
+Nicolae GOLOVANOV PERSON
+Mihai POPESCU PERSON
+Constantin PERSON
+BULAC PERSON
+Valentin NAVRAPESCU PERSON
+Ion TRISTIU PERSON
+Claudia POPESCU PERSON
+Virgil DUMBRAVA PERSON
+Florin IONESCU PERSON
+Cornel CHIRA PERSON
+Stefan SORIGA PERSON
+Mihaela TELICEANU PERSON
+Gabriela SAVA PERSON
+Adrian STAN PERSON
+Stefan DUCA PERSON
+Andreya BONDREA PERSON
+Mihai NITA PERSON
+Vlad PLAIASU PERSON
+Oana UDREA PERSON
+Silvia POPESCU PERSON
+Oliver MARUNTELU PERSON
+
+BIG DATA SI CLOUD COMPUTING:
+id = 534:
+trf:
+the big data era DATE
+Cloud Computing ORG
+the Big Data-as-a-Service PRODUCT
+Cloud Computing PRODUCT
+
+lg:
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+the Era of Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+Autonomic Computing and Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Autonomic Computing and Big Data ORG
+Cloud Computing ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+the Big Data and Data Science ORG
+IEEE INFOCOM First International Workshop on Big Data Sciences, ORG
+Big Data Sets ORG
+Big Data ORG
+the Cloud Computing (CC PRODUCT
+
+id = 562:
+lg:
+1238
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+Cloud Computing PRODUCT
+Cloud Computing PRODUCT
+Big Data ORG
+the Second International Workshop on Adaptive Resource Management and Scheduling for Cloud Computing ORG
+Cloud Computing PRODUCT
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing ORG
+Cloud Computing PRODUCT
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+Cloud Computing WORK_OF_ART
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+The Big Data ORG
+the Cloud Computing PRODUCT
+Big Data ORG
+Big Data ORG
+Big Data Science ORG
+Cloud Computing ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+the Cloud Computing PRODUCT
+Big Data ORG
+Big Data ORG
+Big Data ORG
+Cloud Computing PRODUCT
+Big Data ORG
+Big Data ORG
+Big Data ORG
+the Second International Workshop on Adaptive Resource Management and Scheduling for Cloud Computing ORG
+Big Data ORG
+Big Data ORG
+Big Data and Cloud/Edge ORG
+Big Data ORG
+Big Data ORG
+Big Data ORG
+
+trf:
+913
+Cloud Computing PRODUCT
+Cloud Computing PRODUCT
+Cloud Computing PRODUCT
+the ICT COST Action IC1406 High-Performance Modelling and Simulation for Big Data Applications PRODUCT
+Cloud Computing ORG
+Cloud Computing PRODUCT
+Cloud Computing ORG
+The Big Data era DATE
+Cloud Computing ORG
+Big Data Science ORG
+the Second International Workshop on Adaptive Resource Management and Scheduling for Cloud Computing EVENT
+

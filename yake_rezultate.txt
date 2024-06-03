@@ -1,339 +1,358 @@
 829 - DATCU Mihai
-('synthetic aperture radar', 1.7659129975363425e-06)
-('resolution SAR images', 2.4533309616924417e-06)
-('SAR images', 2.49861740299145e-06)
-('Earth Observation images', 4.837529134634816e-06)
-('Image Information Mining', 5.238959564661918e-06)
-('SAR image classification', 1.3175013998302204e-05)
-('remote sensing image', 1.353617632854886e-05)
-('SAR satellite images', 1.4027982440744921e-05)
-('Aperture Radar SAR', 1.4759710777165464e-05)
-('image time series', 1.6801426914354332e-05)
-('SAR', 1.8580718918907022e-05)
-('image', 2.7684970495871398e-05)
-('image content', 5.452340521718559e-05)
-('Information Mining system', 6.771293131301932e-05)
-('information', 9.50268297424847e-05)
+YAKE:
+synthetic aperture radar
+resolution SAR images
+SAR images
+Image Information Mining
+Earth Observation data
+SAR data
+SAR image classification
+Aperture Radar SAR
+satellite image time
+remote sensing image
+image time series
+SAR
+sensing image data
+data
+image
 
 1672 - GRUMEZESCU Alexandru Mihai
-('drug delivery systems', 3.3605145148595204e-05)
-('scanning electron microscopy', 5.632193231184148e-05)
-('nanoparticles', 0.0001945523175207977)
-('biomedical applications', 0.000229004959138723)
-('food', 0.00029972203267329656)
-('biofilm development', 0.00030036333010909105)
-('antimicrobial activity', 0.00031985264668893393)
-('food industry', 0.00033592313740647727)
-('pulsed laser evaporation', 0.00035060358703649895)
-('assisted pulsed laser', 0.0003546713159627802)
-('materials', 0.00037606138316321276)
-('functionalized magnetite nanoparticles', 0.00040309479023915574)
-('drug', 0.0004093868928503377)
-('Laser Scanning Microscopy', 0.00042204996009811155)
-('targeted drug delivery', 0.0004277307972742214)
+YAKE:
+drug delivery systems
+scanning electron microscopy
+nanoparticles
+biomedical applications
+food
+biofilm development
+antimicrobial activity
+food industry
+pulsed laser evaporation
+assisted pulsed laser
+materials
+functionalized magnetite nanoparticles
+drug
+Laser Scanning Microscopy
+delivery
 
 841 - ANDRONESCU Ecaterina
-('scanning electron microscopy', 1.6799517125680957e-05)
-('ray diffraction', 0.00012402279241728126)
-('composite materials', 0.0001306335668597594)
-('materials', 0.00013356495088930563)
-('drug delivery systems', 0.00015126012111812406)
-('SEM', 0.00017027763285846077)
-('XRD', 0.00017410549354918056)
-('properties', 0.00022341077213959402)
-('dielectric properties', 0.0002641721199666204)
-('Chairs BURILEANU Mihai', 0.0003081076879362251)
-('iron oxide nanoparticles', 0.0003089453068468847)
-('BMT ceramic material', 0.00036731882764271374)
-('Fourier transform infrared', 0.00038615898603670807)
-('transmission electron', 0.00040935768438199417)
-('microscopy', 0.0004335586448262852)
+YAKE:
+scanning electron microscopy
+ray diffraction
+composite materials
+materials
+SEM
+XRD
+drug delivery systems
+properties
+dielectric properties
+Chairs Mihnea COSTOIU
+Chairs BURILEANU Valentin
+iron oxide nanoparticles
+BMT ceramic material
+transmission electron
+microscopy
 
 1284 - TRAUSAN-MATU STEFAN
-('Natural Language Processing', 1.284511793387109e-06)
-('Supported Collaborative Learning', 2.0956863991258462e-06)
-('Computer Supported Collaborative', 6.2988475441389475e-06)
-('language processing techniques', 1.6396692525823264e-05)
-('Latent Semantic Analysis', 1.8253918543664385e-05)
-('Cohesion Network Analysis', 2.3432046516275785e-05)
-('advanced natural language', 3.6716107223509035e-05)
-('Learning', 5.658624416605866e-05)
-('analysis', 0.00013469780932478723)
-('Language', 0.00014689332452106146)
-('Collaborative Learning tools', 0.0001591285847102331)
-('Learning chat conversations', 0.00015962300570398192)
-('learning environment', 0.00017877914234012033)
-('machine learning system', 0.00018634510939273145)
-('learning management systems', 0.0002224333148072286)
+YAKE:
+Natural Language Processing
+Supported Collaborative Learning
+Computer Supported Collaborative
+language processing techniques
+Latent Semantic Analysis
+Cohesion Network Analysis
+advanced natural language
+Learning
+analysis
+Language
+Learning chat conversations
+Collaborative Learning tools
+learning environment
+machine learning system
+learning management systems
 
 1225 - VOICU Gheorghe
-('Subject Category', 1.0089280445568169e-05)
-('Miscanthus miscanthus Subject', 5.5136351604453006e-05)
-('seeds seeds Subject', 0.00011740478179533331)
-('grinding grinding Subject', 0.0002137829600953171)
-('characteristics Subject Category', 0.00023225605923020442)
-('process', 0.00025071519007795705)
-('Category', 0.00026240374072325154)
-('Subject', 0.00026259452244894446)
-('experimental', 0.00047076581941805397)
-('energy', 0.0004851538320099615)
-('product development process', 0.0004961145691322401)
-('soil compaction Subject', 0.0005269069856449368)
-('energy consumption', 0.0005281837400407468)
-('renewable energy Subject', 0.0005564805397042401)
-('material', 0.0006168180733959395)
+YAKE:
+Subject Category
+Miscanthus miscanthus Subject
+seeds seeds Subject
+grinding grinding Subject
+characteristics Subject Category
+process
+Subject
+Category
+energy
+product development process
+soil compaction Subject
+energy consumption
+renewable energy Subject
+material
+working process
 
 1849 - FICAI Anton
-('scanning electron microscopy', 8.678145061748736e-05)
-('drug delivery systems', 0.00013890793922153398)
-('composite material properties', 0.0003637020314557498)
-('Fourier Transform Infrared', 0.00041267790495925447)
-('materials', 0.0004370205001630443)
-('Transform Infrared Spectroscopy', 0.0005059560360202698)
-('properties', 0.0006644005317300156)
-('SEM', 0.0006833195022950724)
-('collagen composite materials', 0.0008901831434351618)
-('composites', 0.001464911386345786)
-('collagen', 0.0015403028829422691)
-('drug', 0.0018059901471321421)
-('antimicrobial activity', 0.0019947399779081084)
-('microscopy', 0.002014606659766148)
-('tissue engineering applications', 0.002346154831929649)
+YAKE:
+scanning electron microscopy
+drug delivery systems
+composite material properties
+materials
+Transform Infrared Spectroscopy
+properties
+SEM
+composites
+collagen
+drug
+antimicrobial activity
+microscopy
+designed composite materials
+delivery
+tissue engineering applications
 
 534 - DOBRE Ciprian Mihai
-('distributed systems', 3.514536500357953e-05)
-('Mobile Cloud computing', 3.815238841443195e-05)
-('cloud computing systems', 5.419243493299847e-05)
-('mobile devices', 8.666750259230294e-05)
-('Opportunistic networks', 9.31474444699774e-05)
-('network management services', 0.00015182852293855014)
-('mobile social networks', 0.00015466024979278364)
-('systems', 0.0001574590069189698)
-('network', 0.00019246759290960042)
-('mobile opportunistic cloud', 0.00020081124950751007)
-('Services', 0.00023063394382672215)
-('mobile', 0.00023304726570759534)
-('intelligent transportation systems', 0.0002463423445912428)
-('service computing architectures', 0.0002680922171995697)
-('Big Data', 0.000268794015043993)
+YAKE:
+distributed systems
+mobile cloud computing
+cloud computing systems
+Data
+mobile big data
+Opportunistic networks
+mobile devices
+network management services
+systems
+big data processing
+mobile social networks
+network
+mobile data traffic
+networks data dissemination
+mobile opportunistic cloud
 
 733 - SEMENESCU Augustin
-('GTAW welding process', 0.000223989485217984)
-('finite element analysis', 0.00027467277922368184)
-('Sustainable Development', 0.00031214904537836823)
-('Electric Arc Furnace', 0.00045590880078377174)
-('process', 0.0005282772573506525)
-('Metallic Materials Industry', 0.0005870993329645929)
-('analysis', 0.0006325094499117451)
-('welding', 0.0007065278197656535)
-('EAF management system', 0.0008604722869230456)
-('System GTAW welding', 0.0009169773682069649)
-('environmental performance indicators', 0.0011276817477157244)
-('material', 0.0011814304663243938)
-('specific analysis models', 0.0012048615960587128)
-('welding process requires', 0.0015222664068316601)
-('development', 0.001541512951471993)
+YAKE:
+finite element analysis
+welding process
+Sustainable Development
+Electric Arc Furnace
+process
+analysis
+EAF management system
+Metallic Materials Industry
+welding
+System GTAW welding
+environmental performance indicators
+specific analysis models
+material
+system
+polluting technology process
 
 69354 - VLAD MAGDALENA
-('Joint European Torus', 0.0001591355169510841)
-('JET ITER', 0.0002831909792125844)
-('JET', 0.00032138232734145645)
-('JET neutron spectrometers', 0.0005809360540926883)
-('JET plasmas', 0.0006137093702162574)
-('Torino Polytechnic Ion', 0.0006456288695533154)
-('wall plasma power', 0.0010139507456271273)
-('ELM energy fluence', 0.0010327378050026359)
-('Scanning Electron Microscopy', 0.0010405545984554336)
-('SXR camera system', 0.0012351563008680495)
-('neutron spectroscopy measurements', 0.0013456057733531343)
-('ITER', 0.0014934986194783345)
-('JET tokamak fusion', 0.0015215041898079306)
-('SXR emissivity maps', 0.0017925179788772802)
-('fast ion physics', 0.0018349601928266369)
+YAKE:
+Joint European Torus
+JET ITER
+JET
+JET plasmas
+JET neutron spectrometers
+Scanning Electron Microscopy
+wall plasma power
+SXR camera system
+neutron spectroscopy measurements
+ELM energy fluence
+ITER
+JET tokamak fusion
+SXR emissivity maps
+fast ion physics
+ILA
 
 562 - POP Florin
-('Cloud computing', 3.463526070292843e-05)
-('Cloud systems', 7.221256523872932e-05)
-('Big Data', 9.926122930735128e-05)
-('Big Data processing', 0.00011110581302629676)
-('Cloud', 0.00011242982190441637)
-('service level agreement', 0.00011567366686839708)
-('distributed systems resources', 0.00012974214305343148)
-('Cloud service providers', 0.00013593755812595434)
-('grid scheduling algorithms', 0.00014922248975568578)
-('computing distributed systems', 0.00016072608160324966)
-('Data processing systems', 0.00020914469441801273)
-('system', 0.00021018338949183567)
-('scheduling', 0.00041728482615510605)
-('resource management systems', 0.0004300886976317247)
-('systems support computing', 0.0005387511364869842)
+YAKE:
+Cloud computing
+Big Data processing
+Big Data
+Cloud systems
+data
+Cloud
+service level agreement
+Data processing systems
+Cloud service providers
+distributed systems resources
+grid scheduling algorithms
+computing distributed systems
+Identification System data
+system
+Big Data environments
 
 1541 - UNGUREANU Nicoleta
-('Finite Element Method', 0.00010627491815273663)
-('Subject Category', 0.0001427718387118069)
-('soil', 0.00034131253648198923)
-('agricultural soil', 0.0003543923503811603)
-('element analysis Subject', 0.00044188743446521464)
-('soil compaction soil', 0.0006155765971776076)
-('loosening loosening Subject', 0.0008316531266180917)
-('Analysis finite element', 0.0008717319636491395)
-('soil processing', 0.0010000378216976475)
-('wastewater', 0.0012180476532215876)
-('increase agricultural production', 0.0013239143170491233)
-('wastewater treatment', 0.0013553197548691954)
-('artificial soil compaction', 0.00137361464620256)
-('soil contact surface', 0.0014233614003572627)
-('energy consumption Subject', 0.001462401751104032)
+YAKE:
+Finite Element Method
+Subject Category
+soil
+agricultural soil
+element analysis Subject
+soil compaction soil
+loosening loosening Subject
+Analysis finite element
+soil processing
+wastewater
+increase agricultural production
+wastewater treatment
+artificial soil compaction
+soil contact surface
+energy consumption Subject
 
 1297 - PETRESCU Florian Ion
-('Piano Urbanistico Comunale', 0.00015787520945404802)
-('energy', 0.00029569337618427425)
-('mechanism', 0.0004221691979926357)
-('dynamic', 0.0005225717354629385)
-('original method', 0.0005531073205282611)
-('system', 0.0007747924433696841)
-('method', 0.0007943057652549774)
-('Mechanical systems', 0.0008808391822479247)
-('internal combustion engines', 0.0009279586552511811)
-('nuclear fusion energy', 0.0010061673984209229)
-('kinetic energy', 0.0010062353656422394)
-('engine', 0.0010210049006945394)
-('distribution mechanism', 0.0010417155854029459)
-('Lockheed Martin', 0.0013879923441260829)
-('energy sources', 0.0014069739020985904)
+YAKE:
+Piano Urbanistico Comunale
+energy
+mechanism
+original method
+dynamic
+system
+method
+Mechanical systems
+internal combustion engines
+kinetic energy
+nuclear fusion energy
+engine
+distribution mechanism
+Lockheed Martin
+energy sources
 
 38845 - STASTNY PETER
-('HLA class', 0.00022825199759569394)
-('HLA', 0.00023289168206104115)
-('MICA', 0.00039378151088124546)
-('MICA antigens', 0.0005216605369997791)
-('alleles', 0.001085318031395984)
-('cell antigen receptor', 0.0011932550290322062)
-('class HLA', 0.0013695119855741636)
-('HLA alleles common', 0.0013882030038044216)
-('patients', 0.0013900118634346784)
-('cells', 0.001480304130190416)
-('prevalent MICA allele', 0.0015526786851757456)
-('cell responses', 0.0015845699043981172)
-('MICA mismatches', 0.0017493164330311829)
-('class HLA haplotypes', 0.0017753798659960337)
-('distinct HLA class', 0.001807860395201373)
+YAKE:
+HLA class alleles
+HLA
+MICA
+MICA antibodies
+donor HLA antigens
+alleles
+cell antigen receptor
+HLA alleles common
+class HLA
+patients
+cells
+cell responses
+prevalent MICA allele
+class HLA haplotypes
+distinct HLA class
 
 1047 - BIRIS SORIN STEFAN
-('Subject Category', 7.829836168350063e-06)
-('tractors tractors Subject', 3.294178826835728e-05)
-('optimization optimization Subject', 4.993526918694114e-05)
-('working working Subject', 5.837099612888573e-05)
-('finite element method', 6.351726766837176e-05)
-('wastewater treatment Subject', 9.368695089470759e-05)
-('design design Subject', 0.00014420260650656948)
-('materials materials Subject', 0.0001472677223602387)
-('grape seed oil', 0.00015314663922285472)
-('agricultural machines working', 0.00015751894459404035)
-('tillage tillage Subject', 0.00015984692238099087)
-('soil compaction Subject', 0.00016617789786881954)
-('mobile working machine', 0.0001853205531405273)
-('soil tillage machines', 0.00021329262659440838)
-('soil modelling equipment', 0.00021965665932625417)
+YAKE:
+Subject Category
+tractors tractors Subject
+optimization optimization Subject
+mobile working machine
+soil compaction Subject
+finite element method
+wastewater treatment Subject
+grape seed oil
+tillage tillage Subject
+agricultural machines working
+design design Subject
+materials materials Subject
+soil tillage machines
+compaction soil compaction
+sunflower seeds Subject
 
 584 - DASCALU Mihai
-('Natural Language Processing', 1.2218423491343282e-05)
-('machine learning models', 6.463905300254378e-05)
-('Language Processing techniques', 0.000133394020300746)
-('language models', 0.0002067399961520347)
-('learning', 0.00027290075761785584)
-('Cohesion Network Analysis', 0.0002861900263259942)
-('FPGA Spartan III', 0.0003886568917262799)
-('game learning environment', 0.00040158186489058334)
-('models', 0.0004436706550870287)
-('USA Gheorghe Tecuci', 0.00046758388045853256)
-('BERT model', 0.0004976871131962199)
-('cellular automata model', 0.0005766935589983714)
-('Smart Learning Ecosystems', 0.0007379028213693498)
-('multiple NLP methods', 0.0007471269597660971)
-('interactive natural language', 0.000755016950370091)
+YAKE:
+Natural Language Processing
+machine learning models
+Language Processing techniques
+language models
+learning
+Cohesion Network Analysis
+USA Traian Muntean
+USA Gheorghe Tecuci
+FPGA Spartan III
+game learning environment
+models
+Nederland Val Tannen
+BERT model
+cellular automata model
+multiple NLP methods
 
 872 - POPESCU Dan
-('wireless sensor networks', 2.2764997741334662e-05)
-('process control systems', 0.00011290228672447044)
-('neural networks', 0.00013751753766231206)
-('system', 0.00014815090329802337)
-('image processing system', 0.0001886005742116229)
-('Unmanned Aerial Vehicles', 0.00019067002120684576)
-('sensor network systems', 0.0002192721931591157)
-('convolutional neural network', 0.00024539990982029277)
-('images', 0.00027262615402631735)
-('network', 0.0002908963857983462)
-('control', 0.0003039318148150011)
-('communication system architecture', 0.0003551204076980116)
-('multi WSN network', 0.0004496238330455912)
-('WSN monitoring systems', 0.00048195705367726525)
-('efficient communication system', 0.0005134492984179648)
+YAKE:
+wireless sensor networks
+neural networks
+process control systems
+system
+Unmanned Aerial Vehicles
+sensor network systems
+image processing system
+convolutional neural network
+network
+images
+control
+communication system architecture
+data
+multi WSN network
+WSN monitoring systems
 
 1292 - RADU Gabriel Lucian
-('extracts', 0.00040953778956584106)
-('acid', 0.0004390261085566065)
-('method', 0.0005943314562965562)
-('antioxidant activity', 0.0007864222707403967)
-('compounds', 0.0008662850654153142)
-('samples', 0.00096117418554741)
-('organic acids', 0.0010735708636997541)
-('detection limit', 0.0011027733567334922)
-('analysis', 0.0012412877700579987)
-('Fourier Transform Infrared', 0.0012700228016633093)
-('performance liquid chromatography', 0.0013032684521526751)
-('concentrated extracts', 0.0014274854611468395)
-('phenolic compounds', 0.0015114308142718288)
-('activity', 0.0015298958762694612)
-('concentration', 0.0017691891939921975)
+YAKE:
+extracts
+acid
+method
+antioxidant activity
+compounds
+samples
+organic acids
+detection
+analysis
+performance liquid chromatography
+concentrated extracts
+activity
+phenolic compounds
+concentration
+electrode
 
 1246 - IOVU Horia
-('Scanning electron microscopy', 7.039656773827392e-05)
-('Fourier transform infrared', 0.00019041993068970414)
-('mechanical properties', 0.0002309470052581912)
-('dynamic mechanical analysis', 0.0003532958621674657)
-('properties', 0.00040235075256987035)
-('differential scanning calorimetry', 0.0006032337040303798)
-('transform infrared spectroscopy', 0.0006249092359683215)
-('hybrid materials', 0.0006309482332988508)
-('ray diffraction', 0.0006352009487540988)
-('FTIR', 0.0006621502331458581)
-('SEM', 0.0006958766430209876)
-('polymer matrix', 0.0007318879644085328)
-('polymer', 0.0008084921898338505)
-('FTIR Spectrometry', 0.0008438576909650701)
-('TGA', 0.000935523853335465)
+YAKE:
+Scanning electron microscopy
+mechanical properties
+dynamic mechanical analysis
+properties
+Raman spectroscopy
+hybrid materials
+ray diffraction
+FTIR
+SEM
+polymer matrix
+polymer
+FTIR Spectrometry
+TGA
+POSS
+differential scanning calorimetry
 
 68995 - Meghea Aurelia
-('antioxidant activity', 0.00038544669041887914)
-('solid lipid nanoparticles', 0.0003998313859280012)
-('nanostructured lipid carriers', 0.0005549188627634641)
-('materials', 0.0006584433625985295)
-('properties', 0.0007080622345301302)
-('lipid', 0.0007954493344822811)
-('oil', 0.0008160164288281068)
-('nonlinear optical properties', 0.0009363031566583846)
-('vegetable oils', 0.0009614595459983648)
-('lipid nanoparticles loaded', 0.0011260677803611194)
-('method', 0.0011375045747333027)
-('VIS', 0.001371638688951374)
-('analysis', 0.0015293360690368952)
-('heavy metals', 0.00158017059722909)
-('activity', 0.0015999160311232165)
+YAKE:
+antioxidant activity
+solid lipid nanoparticles
+nanostructured lipid carriers
+materials
+properties
+lipid
+oil
+nonlinear optical properties
+vegetable oils
+lipid nanoparticles loaded
+method
+VIS
+analysis
+iron oxide materials
+heavy metals
 
 1146 - MOLDOVEANU ALIN - DRAGOS - BOGDAN
-('virtual reality', 2.9043442246748506e-05)
-('virtual online virtual', 0.00010419231152814014)
-('virtual', 0.0001422038848478212)
-('virtual learning environments', 0.0001822333565974893)
-('reality learning tools', 0.0002442828142449387)
-('virtual world systems', 0.00027694782365670696)
-('learning', 0.0003466104079690746)
-('virtual game technology', 0.00039187425607080964)
-('Vision virtual training', 0.0004281916750573984)
-('reality', 0.00045261605259161735)
-('online virtual life', 0.0005085919294186487)
-('augmented reality', 0.0005456550873082125)
-('visually impaired', 0.0005901843839308196)
-('virtual auditory displays', 0.0005936077098694238)
-('immersive virtual environments', 0.0006685144245688418)
+YAKE:
+virtual reality
+virtual online virtual
+virtual
+virtual learning environments
+virtual world systems
+learning
+virtual game technology
+reality
+Vision virtual training
+online virtual life
+augmented reality
+visually impaired
+virtual auditory displays
+system
