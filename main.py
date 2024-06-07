@@ -160,10 +160,10 @@ def extract_topic(abstract_list):
 
 if __name__ == '__main__':
     # read csv files
-    authors = pd.read_csv('top_20_authors.csv')
-    publications = pd.read_csv('publications-top_20_authors.csv', sep=',')
-    # authors = pd.read_csv('some_authors.csv')
-    # publications = pd.read_csv('publications-some_authors.csv', sep=',')
+    authors = pd.read_csv('input/top_20_authors.csv')
+    publications = pd.read_csv('input/publications-top_20_authors.csv', sep=',')
+    # authors = pd.read_csv('input/some_authors.csv')
+    # publications = pd.read_csv('input/publications-some_authors.csv', sep=',')
 
     id_name_list = list(zip(authors['id'], authors['last_name'], authors['first_name']))
     author_names = {author_id: last_name + " " + first_name for author_id, last_name, first_name in id_name_list}
@@ -175,12 +175,11 @@ if __name__ == '__main__':
     for author_id, abstracts in authors_texts.items():
         print(str(author_id) + " - " + author_names[author_id])
 
-        # print("YAKE:")
-        # keywords = extract_keywords(abstracts)
-        # for k, _ in keywords:
-        #     print(k)
+        keywords = extract_keywords(abstracts)
+        for k, _ in keywords:
+            print(k)
+        print()
 
-        # print("\nLDA:")
         topics = extract_topic(abstracts)
         for idx, topic in topics:
             print(f"{topic}")

@@ -1,0 +1,87 @@
+829 - DATCU Mihai
+0.013*"sar image" + 0.009*"synthetic aperture radar sar" + 0.007*"satellite image" + 0.005*"earth observation" + 0.005*"remote sensing" + 0.005*"image content" + 0.004*"terrasar x" + 0.004*"feature extraction" + 0.004*"land cover" + 0.004*"image patch"
+
+1672 - GRUMEZESCU Alexandru Mihai
+0.005*"drug delivery" + 0.004*"biomedical application" + 0.004*"drug delivery system" + 0.003*"tissue engineering" + 0.003*"wound dressing" + 0.003*"essential oil" + 0.003*"magnetite nanoparticle" + 0.003*"cancer therapy" + 0.003*"thin film" + 0.003*"silver nanoparticle"
+
+841 - ANDRONESCU Ecaterina
+0.005*"composite material" + 0.004*"x ray diffraction xrd" + 0.003*"mesoporous silica" + 0.003*"drug delivery" + 0.003*"antimicrobial activity" + 0.002*"transmission electron microscopy tem" + 0.002*"thin film" + 0.002*"drug delivery system" + 0.002*"iron oxide nanoparticle" + 0.002*"point view"
+
+1284 - TRAUSAN-MATU STEFAN
+0.009*"computer supported collaborative learning" + 0.007*"e learning" + 0.006*"natural language processing" + 0.005*"chat conversation" + 0.005*"social network" + 0.004*"natural language" + 0.004*"natural language processing technique" + 0.004*"readerbench framework" + 0.004*"learning environment" + 0.004*"artificial intelligence"
+
+1225 - VOICU Gheorghe
+0.005*"energy consumption" + 0.005*"mathematical model" + 0.004*"technique methodologies equipment" + 0.004*"hammer mill" + 0.003*"renewable energy" + 0.003*"mechanical property" + 0.003*"working process" + 0.003*"energetic plant" + 0.003*"technological process" + 0.003*"wheat flour"
+
+1849 - FICAI Anton
+0.007*"drug delivery system" + 0.007*"antimicrobial activity" + 0.006*"electron microscopy sem" + 0.006*"tissue engineering" + 0.006*"drug delivery" + 0.006*"composite material" + 0.006*"raw material" + 0.006*"staphylococcus aureus" + 0.006*"medical device" + 0.005*"pore size"
+
+534 - DOBRE Ciprian Mihai
+0.008*"mobile device" + 0.007*"opportunistic network" + 0.005*"large system" + 0.005*"cloud computing" + 0.004*"fault tolerance" + 0.004*"big data" + 0.004*"single sale account management" + 0.003*"information product service note" + 0.003*"end user" + 0.003*"scheduling algorithm"
+
+733 - SEMENESCU Augustin
+0.012*"sustainable development" + 0.007*"technological process" + 0.007*"mathematical model" + 0.006*"chemical composition" + 0.006*"heat treatment" + 0.006*"stainless steel" + 0.006*"mechanical property" + 0.006*"welding process" + 0.005*"composite material" + 0.005*"electric arc furnace"
+
+69354 - VLAD MAGDALENA
+0.021*"fast ion" + 0.015*"joint european torus" + 0.014*"h mode" + 0.014*"energy resolution" + 0.013*"magnetic field" + 0.013*"jet iter like wall" + 0.013*"mev neutron" + 0.012*"poloidal asymmetry" + 0.010*"joint european torus jet" + 0.010*"neutron spectrometer"
+
+562 - POP Florin
+0.016*"scheduling algorithm" + 0.015*"cloud computing" + 0.010*"big data" + 0.009*"resource management" + 0.006*"cloud system" + 0.006*"smart city" + 0.006*"time series" + 0.006*"large system" + 0.006*"genetic algorithm" + 0.006*"web service"
+
+1541 - UNGUREANU Nicoleta
+0.010*"agricultural soil" + 0.008*"wastewater treatment" + 0.007*"heavy metal" + 0.007*"mathematical model" + 0.007*"technique methodologies equipment" + 0.006*"sunflower seed" + 0.006*"active body" + 0.006*"finite element method" + 0.006*"finite element" + 0.006*"biological contactor"
+
+1297 - PETRESCU Florian Ion
+0.005*"distribution mechanism" + 0.005*"original method" + 0.004*"human body" + 0.004*"nuclear fusion" + 0.004*"point view" + 0.003*"lockheed martin" + 0.003*"energy source" + 0.003*"mechanical transmission" + 0.003*"mechanical system" + 0.003*"anthropomorphic robot"
+
+38845 - STASTNY PETER
+0.031*"t cell" + 0.016*"hla class" + 0.016*"b cell" + 0.015*"endothelial cell" + 0.014*"hla dr" + 0.014*"amino acid" + 0.014*"mental health" + 0.014*"hla b" + 0.012*"immune response" + 0.012*"advance directive"
+
+1047 - BIRIS SORIN STEFAN
+0.009*"energy efficiency" + 0.009*"technique methodologies equipment" + 0.007*"heavy metal" + 0.007*"plough body ante moldboard" + 0.007*"agro pellet" + 0.007*"digital hydraulic" + 0.006*"agricultural soil" + 0.006*"finite element method" + 0.006*"agricultural machine" + 0.006*"grape seed"
+
+584 - DASCALU Mihai
+0.012*"e learning" + 0.012*"cellular automata" + 0.011*"state art" + 0.009*"fake news" + 0.007*"bert model" + 0.007*"language model" + 0.007*"natural language processing nlp" + 0.006*"open source" + 0.005*"project management" + 0.005*"social network"
+
+872 - POPESCU Dan
+0.012*"neural network" + 0.006*"sensor network" + 0.006*"fractal dimension" + 0.006*"image processing" + 0.006*"wireless sensor network" + 0.004*"texture classification" + 0.004*"unmanned aerial vehicle uav" + 0.004*"artificial intelligence" + 0.004*"energy consumption" + 0.004*"point view"
+
+1292 - RADU Gabriel Lucian
+0.007*"antioxidant activity" + 0.007*"detection limit" + 0.005*"aqueous extract" + 0.004*"limit detection" + 0.004*"free radical" + 0.004*"ascorbic acid" + 0.003*"inhibitory activity" + 0.003*"rosmarinic acid" + 0.003*"organic acid" + 0.003*"antioxidant capacity"
+
+1246 - IOVU Horia
+0.006*"graphene oxide" + 0.006*"mechanical property" + 0.005*"polymer matrix" + 0.004*"thermal stability" + 0.004*"x ray photoelectron spectroscopy" + 0.003*"electron microscopy" + 0.003*"hybrid material" + 0.003*"molecular weight" + 0.003*"tissue engineering" + 0.003*"x ray diffraction xrd"
+
+68995 - Meghea Aurelia
+0.011*"antioxidant activity" + 0.006*"vegetable oil" + 0.005*"lipid nanocarrier" + 0.005*"free radical" + 0.005*"sol gel" + 0.005*"lipid carrier" + 0.005*"physical chemical" + 0.004*"heavy metal" + 0.004*"lipid nanoparticle" + 0.004*"thin film"
+
+1146 - MOLDOVEANU ALIN - DRAGOS - BOGDAN
+0.012*"virtual reality" + 0.007*"virtual environment" + 0.006*"smith chart" + 0.005*"sound vision" + 0.004*"fear level" + 0.004*"virtual world" + 0.004*"human body" + 0.004*"large number" + 0.004*"sensory substitution" + 0.004*"sound localization"
+
+CU MAI PUTINE PUBLICATII:
+943 - PARVU Corneliu
+0.028*"structure" + 0.028*"functional" + 0.023*"design" + 0.018*"carbon nanotubes" + 0.018*"product" + 0.018*"membrane" + 0.018*"poss" + 0.018*"hybrid" + 0.014*"work" + 0.014*"chemical"
+
+698 - RINDASU OVIDIU VIOREL 
+0.067*"deformation" + 0.067*"steel" + 0.038*"mechanical characteristic" + 0.029*"time" + 0.029*"temperature" + 0.029*"technological" + 0.029*"degree" + 0.029*"parameter" + 0.029*"mittal" + 0.029*"structure"
+
+854 - SINDILA Gheorghe
+0.012*"force" + 0.008*"human" + 0.008*"process" + 0.008*"material" + 0.007*"level" + 0.007*"deformation" + 0.006*"extrusion" + 0.006*"system" + 0.006*"development" + 0.005*"possible"
+
+549 - TIRIPLICA Petre Gheorghe
+0.014*"methodology" + 0.011*"product" + 0.010*"component" + 0.009*"pump" + 0.009*"system" + 0.009*"project" + 0.008*"price" + 0.007*"m" + 0.007*"procurement price" + 0.007*"e"
+
+916 - Funar STEFAN PETRU
+0.013*"system" + 0.011*"risk" + 0.009*"process" + 0.008*"flow" + 0.008*"project" + 0.008*"management system" + 0.007*"method" + 0.007*"level" + 0.006*"simulation" + 0.006*"requirement"
+
+802 - DANCIU TIBERIU-DINU
+0.062*"chemical engineering" + 0.037*"e learning" + 0.037*"information communication technology" + 0.037*"deep oxidation" + 0.031*"geometrical model" + 0.031*"electrostatic filter" + 0.031*"electrical filter" + 0.031*"e learning system" + 0.031*"substrate concentration" + 0.031*"incompressible precipitate"
+
+736 - TROFIN Roxana
+0.026*"competence" + 0.019*"specific" + 0.019*"translation" + 0.019*"technology" + 0.014*"language" + 0.012*"communication" + 0.012*"automatic translation" + 0.012*"intercultural" + 0.009*"model" + 0.009*"digital technology"
+
+367 - TARCEA  Claudia Ionela
+0.074*"heavy metal" + 0.049*"x ray diffraction xrd" + 0.043*"iron oxide nanoparticle" + 0.043*"electron microscopy sem" + 0.037*"cr vi" + 0.037*"aqueous solution" + 0.037*"water treatment" + 0.031*"electron microscopy sem energy" + 0.031*"methylene blue" + 0.031*"film nanowire"
+
+69156 - GUTU-ROBU MARIUS GABRIEL
+0.037*"computer supported collaborative learning" + 0.034*"chat conversation" + 0.031*"natural language processing nlp" + 0.027*"readerbench framework" + 0.027*"cohesion network analysis" + 0.027*"neural network" + 0.027*"natural language" + 0.024*"implicit link" + 0.024*"rage ecosystem" + 0.024*"natural language processing"

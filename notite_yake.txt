@@ -1,0 +1,35 @@
+YAKE:
+unsupervised keyword extraction method
+statistical text features
+single document
+supervised methods that use machine learning algorithms are the standard
+	-> long training
+	-> large manually annotated data sets
+domain and language independent
+algorithm:
+	pun poza cu pseudocodul
+	-> splitting text into sentences, splitting sentences into chunks delimited
+		by punctuation, splitting chunks into tokens, removing stopwords,
+		tagging tokens with: d (digit or number), u (unparsable content),
+		a (acronyms), u (uppercase), p (parsable content)
+	   
+	-> feature extraction
+
+
+keyword extraction:
+- document-oriented approaches -> "corpora that change,
+	such as collections of published technical abstracts that grow over time" [8]
+- unsupervised methods:
+	-> the standard is TF-IDF (evaluates how relevant a word is in a document
+	   by comparing its frequency in that doc to its freq in a large collection of docs
+	-> RAKE - keyword candidates are groups of words separated by punctuation marks or
+	   by stop words; a co-occurence matrix is computed; the score for each possible
+	   keyword is calculated as the sum of its component words; the score of a word is:
+	   degree (number of different words that co-occur with it in potential keywords)
+	   / frequency [8]
+
+
+!!! din lucrarea de la YAKE din 2020:
+- LEVENSTHEIN GIVES BEST RESULTS WITH WINDOWSSIZE = 1 AND DEDUP THRESHOLD = 0.8
+- bigrams and trigrams make up the vast majority of keywords
+- best results are obtained for n = 3 (max ngram)
