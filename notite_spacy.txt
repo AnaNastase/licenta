@@ -1,0 +1,4 @@
+For the non-transformer models, the ner component is independent,
+so you can disable everything else:
+
+nlp = spacy.load("en_core_web_sm", disable=["tok2vec", "tagger", "parser", "attribute_ruler", "lemmatizer"])
