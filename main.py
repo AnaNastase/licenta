@@ -7,11 +7,11 @@ import yake
 import fasttext
 import re
 
-STOP_WORDS = ['abstract', 'amount', 'approach', 'article', 'available', 'base', 'based', 'benefit',
+STOP_WORDS = ['abstract', 'al', 'amount', 'approach', 'article', 'available', 'base', 'based', 'benefit',
               'bucharest',
               'case', 'category', 'condition', 'conference', 'context', 'copyright', 'datum', 'demonstrate',
               'demonstrates', 'demonstrated',
-              'different', 'difficult', 'experiment', 'experimental', 'faculty', 'helpful', 'high',
+              'different', 'difficult', 'et', 'experiment', 'experimental', 'faculty', 'helpful', 'high',
               'ieee', 'importance', 'important', 'inconvenience', 'interest', 'interested', 'interests', 'jat',
               'jats', 'laboratory',
               'main', 'new', 'obtain', 'obtained', 'obtains', 'old', 'order', 'organization', 'paper', 'people',
@@ -25,34 +25,30 @@ STOP_WORDS = ['abstract', 'amount', 'approach', 'article', 'available', 'base', 
               'workshop']
 
 
-def get_authors_texts():
-    """ make a dictionary containing a list of abstracts for each author """
-    author_publication_pairs = list(zip(publications['user_id'], publications['abstract_text']))
-    texts = {author_id: [] for author_id in authors["id"]}
-
+def clean_abstracts(abstract_list):
+    """ clean up the abstract list """
+    # filter out non-English or empty abstracts
     # load fastText model
     model = fasttext.load_model('lid.176.bin')
 
-    for author_id, abstract in author_publication_pairs:
+    new_abstracts = []
+
+    for abstract in abstract_list:
         if abstract and isinstance(abstract, str) and re.match('^(?=.*[a-zA-Z])', abstract):
             # predict the language
             predictions = model.predict(abstract)
             language = predictions[0][0].replace('__label__', '')
             # keep only texts written in English
             if language == 'en':
-                texts[author_id].append(abstract)
+                new_abstracts.append(abstract)
 
-    return texts
-
-
-def clean_abstracts(abstract_list):
-    """ remove abstracts that contain mostly person and organization names """
-    # load spacy model
-    nlp = spacy.load('en_core_web_lg')
+    # remove abstracts that contain mostly person and organization names
+    # load spacy model only with the ner component
+    nlp = spacy.load('en_core_web_lg', exclude=['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer'])
 
     clean_abstract_list = []
 
-    for abstract in abstract_list:
+    for abstract in new_abstracts:
         nlp.max_length = len(abstract) + 1000
         doc = nlp(abstract)
 
@@ -74,11 +70,8 @@ def clean_abstracts(abstract_list):
 
 def extract_keywords(abstract_list):
     """ extract keywords from a list of abstracts using YAKE """
-    # load spacy model
-    nlp = spacy.load('en_core_web_lg')
-
-    # remove abstracts that contain mostly person and organization names
-    abstract_list = clean_abstracts(abstract_list)
+    # load spacy model only with the ner component
+    nlp = spacy.load('en_core_web_lg', exclude=['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer'])
 
     # concatenate the abstracts into a single string
     text = '\n'.join(abstract_list)
@@ -113,9 +106,6 @@ def extract_topic(abstract_list):
     """ extract 1 topic containing 10 keywords from documents in abstract_list using LDA """
     # load spacy model
     nlp = spacy.load('en_core_web_lg')
-
-    # remove abstracts that contain mostly person and organization names
-    abstract_list = clean_abstracts(abstract_list)
 
     # keep only adjectives and nouns
     remove_pos = ['ADV', 'PRON', 'PART', 'DET', 'SPACE', 'NUM', 'SYM', 'ADP', 'VERB', 'CCONJ']
@@ -155,7 +145,7 @@ def extract_topic(abstract_list):
     # apply LDA
     lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=300,
                              num_topics=1, workers=4, passes=50)
-    return lda_model.print_topics(-1)
+    return lda_model.print_topics(num_topics=-1, num_words=15)
 
 
 if __name__ == '__main__':
@@ -169,19 +159,30 @@ if __name__ == '__main__':
     author_names = {author_id: last_name + " " + first_name for author_id, last_name, first_name in id_name_list}
 
     # make a dictionary containing a list of abstracts for each author
-    authors_texts = get_authors_texts()
+    author_publication_pairs = list(zip(publications['user_id'], publications['abstract_text']))
+    authors_texts = {author_id: [] for author_id in authors["id"]}
 
-    # apply YAKE and LDA to find keywords for each author
+    for author_id, abstract in author_publication_pairs:
+        authors_texts[author_id].append(abstract)
+
+    # find keywords for each author
     for author_id, abstracts in authors_texts.items():
         print(str(author_id) + " - " + author_names[author_id])
 
-        keywords = extract_keywords(abstracts)
+        # clean up the abstract list
+        abstract_list = clean_abstracts(authors_texts[author_id])
+
+        # apply YAKE
+        keywords = extract_keywords(abstract_list)
         for k, _ in keywords:
             print(k)
         print()
 
-        topics = extract_topic(abstracts)
-        for idx, topic in topics:
-            print(f"{topic}")
-
+        # apply LDA
+        topics = extract_topic(abstract_list)
+        for topic in topics:
+            # words = [w for w, _ in topic]
+            # for w in words:
+            #     print(w)
+            print(topic)
         print()
