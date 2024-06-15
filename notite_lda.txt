@@ -1,5 +1,6 @@
 "The study concluded that noun phrases accounted for 92.5–99% of the technical terms found, with about 70% of them having more than one word;
 there were a few cases where they accompanied adjectives and to a lesser degree,
 prepositions; but there was no instance which involved verbs"
+"with about 70% of them having more than one word"
 (PDF) Keyword Extraction: A Modern Perspective. Available from: https://www.researchgate.net/publication/366313790_Keyword_Extraction_A_Modern_Perspective [accessed Jun 06 2024]."
 (https://www.researchgate.net/publication/366313790_Keyword_Extraction_A_Modern_Perspective)

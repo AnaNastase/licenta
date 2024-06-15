@@ -14,9 +14,8 @@ STOP_WORDS = ['abstract', 'al', 'amount', 'approach', 'article', 'available', 'b
               'different', 'difficult', 'et', 'experiment', 'experimental', 'faculty', 'helpful', 'high',
               'ieee', 'importance', 'important', 'inconvenience', 'interest', 'interested', 'interests', 'jat',
               'jats', 'laboratory',
-              'main', 'new', 'obtain', 'obtained', 'obtains', 'old', 'order', 'organization', 'paper', 'people',
-              'policy',
-              'politehnica', 'polytechnic',
+              'main', 'multiple', 'new', 'obtain', 'obtained', 'obtains', 'old', 'order', 'organization', 'paper',
+              'people', 'policy', 'politehnica', 'polytechnic',
               'present', 'presents', 'presented', 'privacy', 'professor', 'propose', 'proposes', 'proposed',
               'quality', 'range', 'ranges', 'real',
               'recent', 'research', 'researcher', 'result', 'scale', 'show', 'shows', 'showed', 'student', 'study',
@@ -70,11 +69,11 @@ def clean_abstracts(abstract_list):
 
 def extract_keywords(abstract_list):
     """ extract keywords from a list of abstracts using YAKE """
-    # load spacy model only with the ner component
-    nlp = spacy.load('en_core_web_lg', exclude=['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer'])
-
     # concatenate the abstracts into a single string
     text = '\n'.join(abstract_list)
+
+    # load spacy model only with the ner component
+    nlp = spacy.load('en_core_web_lg', exclude=['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer'])
 
     # remove some named entities with spacy
     nlp.max_length = len(text) + 1000
@@ -90,10 +89,10 @@ def extract_keywords(abstract_list):
     max_ngram = 3
     deduplication_threshold = 0.5
     keywords_nr = 15
-    windowsSize = 1
+    windows_size = 1
 
     kw_extractor = yake.KeywordExtractor(lan="en", n=max_ngram, dedupLim=deduplication_threshold,
-                                         top=keywords_nr, windowsSize=windowsSize)
+                                         top=keywords_nr, windowsSize=windows_size)
     # add custom stop words to the default set
     kw_extractor.stopword_set.update(set(STOP_WORDS))
     # extract keywords
@@ -103,12 +102,12 @@ def extract_keywords(abstract_list):
 
 
 def extract_topic(abstract_list):
-    """ extract 1 topic containing 10 keywords from documents in abstract_list using LDA """
+    """ extract 1 topic containing 15 keywords from documents in abstract_list using LDA """
     # load spacy model
     nlp = spacy.load('en_core_web_lg')
 
     # keep only adjectives and nouns
-    remove_pos = ['ADV', 'PRON', 'PART', 'DET', 'SPACE', 'NUM', 'SYM', 'ADP', 'VERB', 'CCONJ']
+    remove_pos = ['ADV', 'PRON', 'PART', 'DET', 'SPACE', 'NUM', 'SYM', 'ADP', 'VERB', 'CCONJ', 'INTJ']
     remove_entities = ['PERSON', 'NORP', 'FAC', 'GPE', 'LOC', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY',
                        'QUANTITY', 'CARDINAL', 'ORDINAL']
 
@@ -121,7 +120,7 @@ def extract_topic(abstract_list):
              and token.lemma_.lower() not in STOP_WORDS and token.pos_ not in remove_pos and not token.is_stop]
         tokens.append(t)
 
-    # add bigrams to the token list
+    # add n-grams to the token list
     bigram = Phrases(tokens, min_count=2, delimiter=' ', threshold=1)
     tokens = [bigram[text] for text in tokens]
     trigram = Phrases(tokens, min_count=2, delimiter=' ', threshold=1)
