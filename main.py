@@ -116,7 +116,7 @@ def extract_topic(abstract_list):
     for abstract in abstract_list:
         nlp.max_length = len(abstract) + 1000
         doc = nlp(abstract)
-        t = [token.lemma_.lower() for token in doc if token.is_alpha and token.ent_type_ not in remove_entities
+        t = [token.lemma_.upper() for token in doc if token.is_alpha and token.ent_type_ not in remove_entities
              and token.lemma_.lower() not in STOP_WORDS and token.pos_ not in remove_pos and not token.is_stop]
         tokens.append(t)
 
@@ -142,8 +142,7 @@ def extract_topic(abstract_list):
     corpus = [dictionary.doc2bow(text) for text in tokens]
 
     # apply LDA
-    lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=300,
-                             num_topics=1, workers=4, passes=50)
+    lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=1, num_topics=1, workers=3, passes=1)
     return lda_model.print_topics(num_topics=-1, num_words=15)
 
 
