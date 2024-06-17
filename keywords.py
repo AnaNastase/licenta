@@ -144,11 +144,10 @@ def extract_keywords_lda(abstract_list):
     if word_count > 100:
         tokens = ngrams
 
-    # create dictionary with gensim
+    # create dictionary
     dictionary = Dictionary(tokens)
     # create corpus
     corpus = [dictionary.doc2bow(text) for text in tokens]
-
     # apply LDA
     lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=1, num_topics=1, workers=3, passes=1)
 
