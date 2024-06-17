@@ -6,6 +6,8 @@ from gensim.models import LdaMulticore
 import yake
 import fasttext
 import re
+import sys
+import os
 
 STOP_WORDS = ['abstract', 'al', 'amount', 'approach', 'article', 'available', 'base', 'based', 'benefit',
               'bucharest',
@@ -25,7 +27,7 @@ STOP_WORDS = ['abstract', 'al', 'amount', 'approach', 'article', 'available', 'b
 
 
 def clean_abstracts(abstract_list):
-    """ clean up the abstract list """
+    """ clean up the abstract list of a researcher """
     # filter out non-English or empty abstracts
     # load fastText model
     model = fasttext.load_model('lid.176.bin')
@@ -48,12 +50,13 @@ def clean_abstracts(abstract_list):
     clean_abstract_list = []
 
     for abstract in new_abstracts:
-        nlp.max_length = len(abstract) + 1000
-        doc = nlp(abstract)
-
-        # count the number of person and org names and the other words
+        # count the number of person and org names, and the other words separately
         person_orgs_count = 0
         other_words_count = 0
+
+        nlp.max_length = len(abstract) + 1000
+        # apply the spacy pipeline
+        doc = nlp(abstract)
 
         for token in doc:
             if token.ent_type_ == 'PERSON' or token.ent_type_ == 'ORG':
@@ -67,7 +70,7 @@ def clean_abstracts(abstract_list):
     return clean_abstract_list
 
 
-def extract_keywords(abstract_list):
+def extract_keywords_yake(abstract_list):
     """ extract keywords from a list of abstracts using YAKE """
     # concatenate the abstracts into a single string
     text = '\n'.join(abstract_list)
@@ -98,10 +101,15 @@ def extract_keywords(abstract_list):
     # extract keywords
     kw = kw_extractor.extract_keywords(transformed_text)
 
-    return kw
+    # return a list of keywords
+    keyword_list = []
+    for k, _ in kw:
+        keyword_list.append(k.upper())
+
+    return keyword_list
 
 
-def extract_topic(abstract_list):
+def extract_keywords_lda(abstract_list):
     """ extract 1 topic containing 15 keywords from documents in abstract_list using LDA """
     # load spacy model
     nlp = spacy.load('en_core_web_lg')
@@ -143,44 +151,67 @@ def extract_topic(abstract_list):
 
     # apply LDA
     lda_model = LdaMulticore(corpus=corpus, id2word=dictionary, iterations=1, num_topics=1, workers=3, passes=1)
-    return lda_model.print_topics(num_topics=-1, num_words=15)
+
+    # return a list of keywords
+    topic = lda_model.show_topic(topicid=-1, topn=15)
+    keyword_list = [k for k, _ in topic]
+
+    return keyword_list
 
 
 if __name__ == '__main__':
     # read csv files
-    authors = pd.read_csv('input/top_20_authors.csv')
-    publications = pd.read_csv('input/publications-top_20_authors.csv', sep=',')
-    # authors = pd.read_csv('input/some_authors.csv')
-    # publications = pd.read_csv('input/publications-some_authors.csv', sep=',')
+    authors_csv = sys.argv[1]
+    publications_csv = sys.argv[2]
+    authors = pd.read_csv(authors_csv)
+    publications = pd.read_csv(publications_csv, sep=',')
 
     id_name_list = list(zip(authors['id'], authors['last_name'], authors['first_name']))
     author_names = {author_id: last_name + " " + first_name for author_id, last_name, first_name in id_name_list}
 
     # make a dictionary containing a list of abstracts for each author
     author_publication_pairs = list(zip(publications['user_id'], publications['abstract_text']))
-    authors_texts = {author_id: [] for author_id in authors["id"]}
+    authors_texts = {author_id: [] for author_id in authors['id']}
 
     for author_id, abstract in author_publication_pairs:
         authors_texts[author_id].append(abstract)
 
+    # store the results as a list of dictionaries
+    results = []
+
     # find keywords for each author
     for author_id, abstracts in authors_texts.items():
-        print(str(author_id) + " - " + author_names[author_id])
-
         # clean up the abstract list
         abstract_list = clean_abstracts(authors_texts[author_id])
 
+        print(str(author_id) + ' - ' + author_names[author_id])
+
         # apply YAKE
-        keywords = extract_keywords(abstract_list)
-        for k, _ in keywords:
-            print(k)
+        keywords_yake = extract_keywords_yake(abstract_list)
+
+        print('YAKE:')
+        for kw in keywords_yake:
+            print(kw)
         print()
 
         # apply LDA
-        topics = extract_topic(abstract_list)
-        for topic in topics:
-            # words = [w for w, _ in topic]
-            # for w in words:
-            #     print(w)
-            print(topic)
+        keywords_lda = extract_keywords_lda(abstract_list)
+
+        print('LDA:')
+        for kw in keywords_lda:
+            print(kw)
         print()
+
+        # add the results in the list
+        keywords_yake = '; '.join(keywords_yake)
+        keywords_lda = '; '.join(keywords_lda)
+        results.append({'ID': author_id, 'Name': author_names[author_id],
+                        'keywords YAKE': keywords_yake, 'keywords LDA': keywords_lda})
+
+    # create data frame with pandas
+    df = pd.DataFrame(results)
+
+    # write to csv file
+    out_file = 'results/' + sys.argv[3] + '.csv'
+    os.makedirs('results', exist_ok=True)
+    df.to_csv(out_file, index=False)
